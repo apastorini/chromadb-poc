@@ -3,6 +3,10 @@ import chromadb
 from chromadb.config import Settings
 
 
+#levanatr servidor en docker con ui y puerto api
+# docker run -p 8000:8000 -p 3000:3000 chromadb/chroma
+#https://github.com/flanker/chromadb-admin
+
 
 # Si la lista `ids` se genera automáticamente:
 def generate_ids(num_documents):
