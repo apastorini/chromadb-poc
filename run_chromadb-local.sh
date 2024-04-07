@@ -1,0 +1,1 @@
+chroma run --path /db_path
